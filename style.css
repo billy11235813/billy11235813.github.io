@@ -1,0 +1,598 @@
+*{
+	margin: 0; 
+	padding: 0; 
+}
+h1{
+	font-size: 110px; 
+	font-family: Italianno;
+    text-align: center;	
+	/*color: 	rgb(255,215,0);*/
+	 background: -webkit-linear-gradient(#f00, red, red, gold, gold, gold);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	margin-bottom: 0px; 
+	margin-top: 0px; 
+}
+
+#body{
+	visibility : hidden;
+}
+#background{
+	position:fixed; 
+	width: 1920px;
+	height: 990px;
+	margin: 0;
+	padding: 0; 
+	
+}
+
+
+#slotMachine{
+	background-image : url("bandit2.png");
+	height: 850px;
+	width: 730px; 
+	position: absolute;
+	left: 1000px;
+	top: 115px;
+}
+
+.roll{
+	display : inline-block; 
+	width : 100px;
+    height: 100px; 
+	border: 4px solid black; 
+	background-color: white; 
+}
+
+#allRolls{
+	position: relative;
+	left: 134.5px;
+	top: 283px; 
+}
+
+#startButton{
+	font-size: 30px; 
+	position: relative; 
+	left: 275px;
+	top: 470px; 
+	height: 100px;
+	width: 100px; 
+	color: black;
+    background-color: red; 
+	border-color: red; 
+}
+
+#win1{
+	font-size: 30px;
+	text-align: center;
+	vertical-align : middle; 
+	margin: 0;
+	height: 35px;
+	width: 130px;
+	border : 3px solid gold;
+	background-color: rgb(178, 19, 61);
+	position: relative;
+	left: 0px;
+	top: 0px; 
+}
+
+#bet1{
+	border : 3px solid gold;
+	background-color: rgb(178, 19, 61);
+	font-size: 30px;
+	text-align: center;
+	vertical-align : middle; 
+	margin: 0;
+	height: 35px;
+	width: 130px;
+	position: relative;
+	left: 0px;
+	top: 0px; 
+}
+
+#money1{
+	border : 3px solid gold;
+	background-color: rgb(178, 19, 61);
+	font-size: 30px;
+	text-align: center;
+	vertical-align : middle; 
+	margin: 0;
+	height: 35px;
+	width: 130px;
+	position: relative;
+	left: 0px;
+	top: 0px; 
+}
+
+
+#buttonLess {
+	position: relative; 
+	top: -18.5px;
+	left: 92px;
+    width: 0px;
+	background-color: green; 
+    height: 0px;
+    border-left: 16px solid rgb(34,33,31);
+	border-right:16px solid rgb(34,33,31);
+	border-bottom: 0px solid rgb(34,33,31); 
+	padding: 0px;
+	margin-left: 5px; 
+	border-top: 15px solid green;
+}
+
+
+#buttonMore {
+	position: relative; 
+    top: -53.5px;
+	left: 132px;
+	width: 0px;
+	background-color: green; 
+    height: 0px;
+    border-left: 16px solid rgb(34,33,31);
+	border-right:16px solid rgb(34,33,31);
+	border-top: 0px solid rgb(34,33,31); 
+	padding: 0px;
+	margin-left: 5px; 
+	border-bottom: 15px solid green;
+}
+
+#p1{
+	color: gold;
+	font-size: 35px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+
+#p2{
+	color: gold;
+	font-size: 35px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+
+#p3{
+	color: gold;
+	font-size: 35px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+
+#win{
+	position: absolute;
+	left: 240px;
+	top: 705px;
+	width: 160px; 
+}
+
+#bet{
+	position: absolute;
+	left: 45px;
+	top: 580px;
+	width: 180px;
+}
+
+#money{
+	position: absolute;
+	left: 45px;
+	top: 705px;
+	width: 160px; 
+}
+
+#winningTable{
+	border: 1px solid black; 
+	width: 500px;
+	height: 790px;
+	background-color : rgb(13, 109, 24);
+	position: absolute;
+	left: 300px;
+	top: 140px;
+}
+
+#score1{
+	background: url("1seven.png"); 
+	position: relative;
+	left: 170px;
+	width: 50px;
+	height: 50px; 
+}
+#score2{
+	background: url("1seven.png"); 
+	position: relative;
+	top: -50px;
+	left: 220px;
+	width: 50px;
+	height: 50px; 
+}
+#score3{
+	background: url("1seven.png"); 
+	position: relative;
+	top: -100px;
+	left: 270px;
+	width: 50px;
+	height: 50px; 
+}
+#text1{
+	color: gold;
+	font-size: 30px;
+	position: relative;
+	top: 40px;
+	left: 10px;
+}
+#value1{
+	border: 3px solid gold; 
+	font-size: 30px;
+	text-align: center;	
+	background-color: rgb(178, 19, 61);
+	position: relative;
+	left: 350px; 
+	top: -145.5px; 
+	height: 35px;
+	width: 100px;
+}
+
+#score4{
+	background: url("1bar3.png"); 
+	position: relative;
+	left: 170px;
+	top: -150px;
+	width: 50px;
+	height: 50px; 
+}
+
+#score5{
+	background: url("1bar3.png"); 
+	position: relative;
+	top: -200px;
+	left: 220px;
+	width: 50px;
+	height: 50px; 
+}
+
+#score6{
+	background: url("1bar3.png"); 
+	position: relative;
+	top: -250px;
+	left: 270px;
+	width: 50px;
+	height: 50px; 
+}
+
+#text2{
+	color: gold;
+	font-size: 30px;
+	position: relative;
+	top: -110px;
+	left: 10px;
+}
+#value2{
+	border: 3px solid gold; 
+	background-color: rgb(178, 19, 61);
+	position: relative;
+	left: 350px; 
+	top: -295.5px; 
+	height: 35px;
+	width: 100px;
+	font-size: 30px;
+	text-align: center; 
+}
+
+#score7{
+	background: url("1bar2.png"); 
+	position: relative;
+	left: 170px;
+	top: -300px;
+	width: 50px;
+	height: 50px; 
+}
+
+#score8{
+	background: url("1bar2.png"); 
+	position: relative;
+	top: -350px;
+	left: 220px;
+	width: 50px;
+	height: 50px; 
+}
+
+#score9{
+	background: url("1bar2.png"); 
+	position: relative;
+	top: -400px;
+	left: 270px;
+	width: 50px;
+	height: 50px; 
+}
+
+#text3{
+	color: gold;
+	font-size: 30px;
+	position: relative;
+	top: -260px;
+	left: 10px;
+}
+#value3{
+	border: 3px solid gold; 
+	background-color: rgb(178, 19, 61);
+	position: relative;
+	left: 350px; 
+	top: -445.5px; 
+	height: 35px;
+	width: 100px;
+	font-size: 30px;
+	text-align: center; 
+}
+
+#score10{
+	background: url("1bar1.png"); 
+	position: relative;
+	left: 170px;
+	top: -450px;
+	width: 50px;
+	height: 50px; 
+}
+
+#score11{
+	background: url("1bar1.png"); 
+	position: relative;
+	top: -500px;
+	left: 220px;
+	width: 50px;
+	height: 50px; 
+}
+
+#score12{
+	background: url("1bar1.png"); 
+	position: relative;
+	top: -550px;
+	left: 270px;
+	width: 50px;
+	height: 50px; 
+}
+
+#text4{
+	color: gold;
+	font-size: 30px;
+	position: relative;
+	top: -410px;
+	left: 10px;
+}
+#value4{
+	border: 3px solid gold; 
+	background-color: rgb(178, 19, 61);
+	position: relative;
+	left: 350px; 
+	top: -595.5px; 
+	height: 35px;
+	width: 100px;
+	font-size: 30px;
+	text-align: center; 
+}
+
+#score13{
+	background: url("1grapes.png"); 
+	position: relative;
+	left: 170px;
+	top: -600px;
+	width: 50px;
+	height: 50px; 
+}
+
+#score14{
+	background: url("1grapes.png"); 
+	position: relative;
+	top: -650px;
+	left: 220px;
+	width: 50px;
+	height: 50px; 
+}
+
+#score15{
+	background: url("1grapes.png"); 
+	position: relative;
+	top: -700px;
+	left: 270px;
+	width: 50px;
+	height: 50px; 
+}
+
+#text5{
+	color: gold;
+	font-size: 30px;
+	position: relative;
+	top: -560px;
+	left: 10px;
+}
+#value5{
+	border: 3px solid gold; 
+	background-color: rgb(178, 19, 61);
+	position: relative;
+	left: 350px; 
+	top: -745.5px; 
+	height: 35px;
+	width: 100px;
+	font-size: 30px;
+	text-align: center; 
+}
+
+#score16{
+	background: url("1seven.png"); 
+	position: relative;
+	top: -750px;
+	left: 170px;
+	width: 50px;
+	height: 50px; 
+}
+#score17{
+	background: url("1seven.png"); 
+	position: relative;
+	top: -800px;
+	left: 220px;
+	width: 50px;
+	height: 50px; 
+}
+
+#text6{
+	color: gold;
+	font-size: 30px;
+	position: relative;
+	top: -710px;
+	left: 10px;
+}
+#value6{
+	border: 3px solid gold; 
+	background-color: rgb(178, 19, 61);
+	position: relative;
+	left: 350px; 
+	top: -845.5px; 
+	height: 35px;
+	width: 100px;
+	font-size: 30px;
+	text-align: center; 
+}
+
+#score18{
+	background: url("1bar3.png"); 
+	position: relative;
+	top: -850px;
+	left: 170px;
+	width: 50px;
+	height: 50px; 
+}
+#score19{
+	background: url("1bar3.png"); 
+	position: relative;
+	top: -900px;
+	left: 220px;
+	width: 50px;
+	height: 50px; 
+}
+
+#text7{
+	color: gold;
+	font-size: 30px;
+	position: relative;
+	top: -810px;
+	left: 10px;
+}
+#value7{
+	border: 3px solid gold; 
+	background-color: rgb(178, 19, 61);
+	position: relative;
+	left: 350px; 
+	top: -945.5px; 
+	height: 35px;
+	width: 100px;
+	font-size: 30px;
+	text-align: center; 
+}
+
+#score20{
+	background: url("1bar2.png"); 
+	position: relative;
+	top: -950px;
+	left: 170px;
+	width: 50px;
+	height: 50px; 
+}
+#score21{
+	background: url("1bar2.png"); 
+	position: relative;
+	top: -1000px;
+	left: 220px;
+	width: 50px;
+	height: 50px; 
+}
+
+#text8{
+	color: gold;
+	font-size: 30px;
+	position: relative;
+	top: -910px;
+	left: 10px;
+}
+#value8{
+	border: 3px solid gold; 
+	background-color: rgb(178, 19, 61);
+	position: relative;
+	left: 350px; 
+	top: -1045.5px; 
+	height: 35px;
+	width: 100px;
+	font-size: 30px;
+	text-align: center; 
+}
+
+#score22{
+	background: url("1bar1.png"); 
+	position: relative;
+	top: -1050px;
+	left: 170px;
+	width: 50px;
+	height: 50px; 
+}
+#score23{
+	background: url("1bar1.png"); 
+	position: relative;
+	top: -1100px;
+	left: 220px;
+	width: 50px;
+	height: 50px; 
+}
+
+#text9{
+	color: gold;
+	font-size: 30px;
+	position: relative;
+	top: -1010px;
+	left: 10px;
+}
+#value9{
+	border: 3px solid gold; 
+	background-color: rgb(178, 19, 61);
+	position: relative;
+	left: 350px; 
+	font-size: 30px;
+	top: -1145.5px; 
+	height: 35px;
+	width: 100px;
+	text-align: center; 
+}
+
+#score24{
+	background: url("1grapes.png"); 
+	position: relative;
+	top: -1150px;
+	left: 170px;
+	width: 50px;
+	height: 50px; 
+}
+#score25{
+	background: url("1grapes.png"); 
+	position: relative;
+	top: -1200px;
+	left: 220px;
+	width: 50px;
+	height: 50px; 
+}
+
+#text10{
+	color: gold;
+	font-size: 30px;
+	position: relative;
+	top: -1110px;
+	left: 10px;
+}
+#value10{
+	border: 3px solid gold; 
+	background-color: rgb(178, 19, 61);
+	position: relative;
+	left: 350px; 
+	font-size: 30px;
+	top: -1245.5px; 
+	height: 35px;
+	width: 100px;
+	text-align: center; 
+}

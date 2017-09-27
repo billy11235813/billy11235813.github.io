@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Casino Pascal</title>
+		<link rel = "stylesheet" type="text/css" href="style.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Italianno" rel="stylesheet">
+		<script src="jquery.js"></script>
+	</head>
+	<body id="body">
+		<audio id="myAudio" >
+			<source src="sound.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>
+		<div id="background">
+			<h1>Casino Royale</h1>
+				<div id="slotMachine">
+				<div id="allRolls">
+					<div class = "roll" id="rollNr1">
+					</div>
+	
+					<div class = "roll" id="rollNr2">
+					</div>
+	
+					<div class = "roll" id="rollNr3">
+					</div>
+				</div>
+					<button id = "startButton" onclick="play3">Play</button>
+				<div id="win">
+					<p id="p1">Win</p>
+					<div id="win1">
+					</div>
+				</div>
+				<div id="bet">
+					<p id="p2">Bet</p>
+					<div id="bet1">
+					</div>
+					<button id="buttonMore"></button>
+					<button id="buttonLess"></button>
+				</div>
+				
+				<div id="money">
+					<p id="p3">Money</p>
+					<div id="money1">
+					</div>
+				</div>
+				</div>
+				<div id="winningTable">
+					<div id="text1">
+					<p>3 x Seven:</p>
+					</div>
+					<div id="score1">
+					</div>
+					<div id="score2">
+					</div>
+					<div id="score3">
+					</div>
+					<div id="value1">
+					</div>
+					<div id="text2">
+					<p>3 x Bar 3:</p>
+					</div>
+					<div id="score4">
+					</div>
+					<div id="score5">
+					</div>
+					<div id="score6">
+					</div>
+					<div id="value2">
+					</div>
+					<div id="text3">
+					<p>3 x Bar 2:</p>
+					</div>
+					<div id="score7">
+					</div>
+					<div id="score8">
+					</div>
+					<div id="score9">
+					</div>
+					<div id="value3">
+					</div>
+					<div id="text4">
+					<p>3 x Bar 1:</p>
+					</div>
+					<div id="score10">
+					</div>
+					<div id="score11">
+					</div>
+					<div id="score12">
+					</div>
+					<div id="value4">
+					</div>
+					<div id="text5">
+					<p>3 x Any:</p>
+					</div>
+					<div id="score13">
+					</div>
+					<div id="score14">
+					</div>
+					<div id="score15">
+					</div>
+					<div id="value5">
+					</div>
+					<div id="text6">
+					<p>2 x Seven:</p>
+					</div>
+					<div id="score16">
+					</div>
+					<div id="score17">
+					</div>
+					<div id="value6">
+					</div>
+					<div id="text7">
+					<p>2 x Bar 3:</p>
+					</div>
+					<div id="score18">
+					</div>
+					<div id="score19">
+					</div>
+					<div id="value7">
+					</div>
+					<div id="text8">
+					<p>2 x Bar 2:</p>
+					</div>
+					<div id="score20">
+					</div>
+					<div id="score21">
+					</div>
+					<div id="value8">
+					</div>
+					<div id="text9">
+					<p>2 x Bar 1:</p>
+					</div>
+					<div id="score22">
+					</div>
+					<div id="score23">
+					</div>
+					<div id="value9">
+					</div>
+					<div id="text10">
+					<p>2 x Any:</p>
+					</div>
+					<div id="score24">
+					</div>
+					<div id="score25">
+					</div>
+					<div id="value10">
+					</div>
+				</div>
+		</div>
+	</body>
+	<script src="script.js"></script>
+</html>
